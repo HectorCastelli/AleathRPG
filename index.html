@@ -13,6 +13,7 @@
             <div class="large-12 columns">
                 <h1>Aleath</h1>
                 <p>Um sistema brasileiro de RPG focado em interpretação.</p>
+                <div id="creative_commons"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />O trabalho <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Aleath</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="http://hectorcastelli.github.io/AleathRPG/" property="cc:attributionName" rel="cc:attributionURL">Héctor Castelli Zacharias</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>.<br />Baseado no trabalho disponível em <a xmlns:dct="http://purl.org/dc/terms/" href="http://hectorcastelli.github.io/AleathRPG/" rel="dct:source">http://hectorcastelli.github.io/AleathRPG/</a>.<br />Podem estar disponíveis autorizações adicionais às concedidas no âmbito desta licença em <a xmlns:cc="http://creativecommons.org/ns#" href="http://hectorcastelli.github.io/AleathRPG/" rel="cc:morePermissions">http://hectorcastelli.github.io/AleathRPG/</a>.</div>
             </div>
         </div>
 
@@ -297,7 +298,6 @@
                                     <th class="text-center">Ladino</th>
                                     <th class="text-center">Clérigo</th>
                                     <th class="text-center">Guerreiro</th>
-                                    <th class="text-center">Artesão</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -308,7 +308,6 @@
                                     <td>Caçador</td>
                                     <td>Inquisidor</td>
                                     <td>Mercenário</td>
-                                    <td>Flecheiro</td>
                                 </tr>
                                 <tr>
                                     <td><b>Mago</b></td>
@@ -317,7 +316,6 @@
                                     <td>Ilusionista</td>
                                     <td>Druída</td>
                                     <td>Armomante</td>
-                                    <td>Criador</td>
                                 </tr>
                                 <tr>
                                     <td><b>Ladino</b></td>
@@ -326,7 +324,6 @@
                                     <td>Acrobata</td>
                                     <td>Monge</td>
                                     <td>Assasino</td>
-                                    <td>Armadilheiro</td>
                                 </tr>
                                 <tr>
                                     <td><b>Clérigo</b></td>
@@ -335,7 +332,6 @@
                                     <td>Monge</td>-
                                     <td>Sacerdote</td>
                                     <td>Paladino</td>
-                                    <td>Artífice</td>
                                 </tr>
                                 <tr>
                                     <td><b>Guerreiro</b></td>
@@ -344,19 +340,13 @@
                                     <td>Assasino</td>
                                     <td>Paladino</td>
                                     <td>Cavaleiro</td>
-                                    <td>Ferreiro</td>
-                                </tr>
-                                <tr>
-                                    <td><b>Artesão</b></td>
-                                    <td>Flecheiro</td>
-                                    <td>Criador</td>
-                                    <td>Armadilheiro</td>
-                                    <td>Artífice</td>
-                                    <td>Ferreiro</td>
-                                    <td>Projetista</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <h4>Artesão</h4>
+                        <p>A classe artesão é uma classe a parte das outras e pode ser adquirida <b>de graça</b>.</p>
+                        <p>A classe de artesão é destinada a aqueles que querem fabricar seus próprios equipamentos, armas e ferramentas. Um bom artesão consegue moldar o mundo ao seu redor e se aproveitar das melhores características de todos os materiais.</p>
                     </div>
                     <div class="tabs-panel" id="habilidades">
                         <h2>Habilidades</h2>
@@ -613,22 +603,32 @@
                                 <a href="#artesao" role="tab" class="accordion-title" id="artesao-heading" aria-controls="artesao">Artesão</a>
                                 <div id="artesao" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="artesao-heading">
                                     <div class="callout">
+                                        <span class="secondary badge">P</span>
+                                        <span class="secondary label">Com suas Próprias Mãos</span>
+                                        <p>Toda vez que o usuário utilizar-se de algo que ele mesmo contruiu, ele receberá uma vantagem.</p>
+                                    </div>
+                                    <div class="callout">
                                         <span class="secondary badge">1</span>
                                         <span class="secondary label">Moldar Barro</span>
                                         <p>O usuário molda barro em qualquer formato que quiser.</p>
                                     </div>
                                     <div class="callout">
-                                        <span class="secondary badge">2</span>
+                                        <span class="secondary badge">1</span>
                                         <span class="secondary label">Remendar Tecido</span>
                                         <p>O usuário remenda tecidos sem afetar a qualidade do mesmo nem retirar encantamentos mágicos.</p>
                                     </div>
                                     <div class="callout">
-                                        <span class="secondary badge">3</span>
+                                        <span class="secondary badge">2</span>
                                         <span class="secondary label">Moldar Metal</span>
                                         <p>O usuário molda metais fundidos com precisão e habilidade.</p>
                                     </div>
                                     <div class="callout">
-                                        <span class="secondary badge">4</span>
+                                        <span class="secondary badge">2</span>
+                                        <span class="secondary label">Criar Sensor</span>
+                                        <p>O usuário criar um mecanismo simples que detecta presença, toque ou temperatura.</p>
+                                    </div>
+                                    <div class="callout">
+                                        <span class="secondary badge">3</span>
                                         <span class="secondary label">Molde Mágico</span>
                                         <p>O usuário manipula qualquer item mágico e altera sua forma sem perder suas propriedades mágicas.</p>
                                     </div>
@@ -636,11 +636,6 @@
                                         <span class="secondary badge">5</span>
                                         <span class="secondary label">Criar Bomba</span>
                                         <p>O usuário precisa de materiais explosivos básicos para criar uma bomba comum.</p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">6</span>
-                                        <span class="secondary label">Criar Sensor</span>
-                                        <p>O usuário criar um mecanismo simples que detecta presença, toque ou temperatura.</p>
                                     </div>
                                     <div class="callout">
                                         <span class="secondary badge">7</span>
@@ -787,59 +782,28 @@
                                 <div id="mercenario" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="mercenario-heading">
                                     <div class="callout">
                                         <span class="secondary badge">1</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
+                                        <span class="secondary label">Mestre das Armas</span>
+                                        <p>O usuário não recebe penalidade se tiver perícia negativa em uma classe de arma que está utilizando.</p>
                                     </div>
                                     <div class="callout">
                                         <span class="secondary badge">2</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
+                                        <span class="secondary label">Execução</span>
+                                        <p>O usuário usa suas armas para desferir um conjunto de golpes fatais em suscessão em um alvo.</p>
                                     </div>
                                     <div class="callout">
                                         <span class="secondary badge">3</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
+                                        <span class="secondary label">Mestre das Armas 2</span>
+                                        <p>O usuário recebe uma vantagem na classe de arma qe estiver utilizando.</p>
                                     </div>
                                     <div class="callout">
                                         <span class="secondary badge">4</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
+                                        <span class="secondary label">Execução 2</span>
+                                        <p>O usuário usa suas armas para desferir um conjunto de golpes fatais em suscessão em até dois alvo.</p>
                                     </div>
                                     <div class="callout">
                                         <span class="secondary badge">5</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="accordion-item">
-                                <a href="#flecheiro" role="tab" class="accordion-title" id="flecheiro-heading" aria-controls="flecheiro">Flecheiro <small>Arqueiro + Artesão</small></a>
-                                <div id="flecheiro" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="flecheiro-heading">
-                                    <div class="callout">
-                                        <span class="secondary badge">1</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">2</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">3</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">4</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">5</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
+                                        <span class="secondary label">Retirada Estratégica</span>
+                                        <p>Se o usuário estiver em clara desvantagem em combate ele ganha duas vantagens para desviar, contra-atacar e defender golpes.</p>
                                     </div>
                                 </div>
                             </li>
@@ -1093,37 +1057,6 @@
                             </li>
 
                             <li class="accordion-item">
-                                <a href="#armadilheiro" role="tab" class="accordion-title" id="armadilheiro-heading" aria-controls="armadilheiro">Armadilheiro <small>Ladino + Artesão</small></a>
-                                <div id="armadilheiro" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="armadilheiro-heading">
-                                    <div class="callout">
-                                        <span class="secondary badge">1</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">2</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">3</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">4</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">5</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="accordion-item">
                                 <a href="#sacerdote" role="tab" class="accordion-title" id="sacerdote-heading" aria-controls="sacerdote">Sacerdote <small>Clérigo + Clérigo</small></a>
                                 <div id="sacerdote" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="sacerdote-heading">
                                     <div class="callout">
@@ -1185,36 +1118,6 @@
                                 </div>
                             </li>
 
-                            <li class="accordion-item">
-                                <a href="#artifice" role="tab" class="accordion-title" id="artifice-heading" aria-controls="artifice">Artífice <small>Clérigo + Artesão</small></a>
-                                <div id="artifice" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="artifice-heading">
-                                    <div class="callout">
-                                        <span class="secondary badge">1</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">2</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">3</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">4</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">5</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </li>
 
                             <li class="accordion-item">
                                 <a href="#cavaleiro" role="tab" class="accordion-title" id="cavaleiro-heading" aria-controls="cavaleiro">Cavaleiro <small>Guerreiro + Guerreiro</small></a>
@@ -1250,37 +1153,6 @@
                             <li class="accordion-item">
                                 <a href="#ferreiro" role="tab" class="accordion-title" id="ferreiro-heading" aria-controls="ferreiro">Ferreiro <small>Guerreiro + Artesão</small></a>
                                 <div id="ferreiro" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="ferreiro-heading">
-                                    <div class="callout">
-                                        <span class="secondary badge">1</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">2</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">3</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">4</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                    <div class="callout">
-                                        <span class="secondary badge">5</span>
-                                        <span class="secondary label"></span>
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="accordion-item">
-                                <a href="#projetista" role="tab" class="accordion-title" id="projetista-heading" aria-controls="projetista">Projetista <small>Artesão + Artesão</small></a>
-                                <div id="projetista" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="projetista-heading">
                                     <div class="callout">
                                         <span class="secondary badge">1</span>
                                         <span class="secondary label"></span>
